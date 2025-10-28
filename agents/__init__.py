@@ -6,9 +6,6 @@ from .base_agent import HistoricalAgent, PersonalityTraits, HistoricalContext, I
 from .hitler_agent import HitlerAgent
 from .gandhi_agent import GandhiAgent
 from .jinnah_agent import JinnahAgent
-from .churchill_agent import ChurchillAgent
-from .marx_agent import MarxAgent
-from .machiavelli_agent import MachiavelliAgent
 
 __all__ = [
     'HistoricalAgent',
@@ -17,8 +14,5 @@ __all__ = [
     'Ideology',
     'HitlerAgent',
     'GandhiAgent', 
-    'JinnahAgent',
-    'ChurchillAgent',
-    'MarxAgent',
-    'MachiavelliAgent'
+    'JinnahAgent'
 ]
