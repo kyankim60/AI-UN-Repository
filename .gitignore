@@ -38,6 +38,7 @@ Thumbs.db
 
 # Application specific
 *.json
+!vercel.json
 *.log
 debate_results/
 *.txt.bak
